@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap"
+			rel="stylesheet"
+		/>
+		<title>modal</title>
+	</head>
+	<body>
+		<div class="container">
+			<button
+				class="modal-btn"
+				data-path="modal1"
+				data-animation="fadeInUp"
+				data-speed="600"
+			>
+				Open 1
+			</button>
+			<button
+				class="modal-btn"
+				data-path="modal2"
+				data-animation="fadeInDown"
+				data-speed="600"
+			>
+				Open 2
+			</button>
+		</div>
+		<div class="modal">
+			<div class="modal__container" data-target="modal1">
+				<button class="modal-close">&#10005;</button>
+				<div class="modal-content">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quis
+					itaque enim dolor nemo culpa excepturi quas. Eius pariatur laborum
+					commodi libero, porro totam repellendus omnis ducimus. Veniam, quos
+					quod.
+				</div>
+				<button class="play">Play</button>
+				<input class="input" type="text" placeholder="name" />
+			</div>
+			<div class="modal__container" data-target="modal2">
+				<button class="modal-close">&#10005;</button>
+				<div class="modal-content">
+					Mujer uno dolor más, de poder mismo si. Suntuoso abadía temporalidad
+					vietnamita racional molestias, fuga crepúsculo? Alma dignísimo dolor
+					litro resiliencia deleznable soluciones elixir previsor laboral!
+					Resiliencia, enigma. Incidente, deletéreo.
+				</div>
+				<button class="play">Play</button>
+				<input class="input" type="text" placeholder="name" />
+			</div>
+		</div>
+	</body>
+</html>
